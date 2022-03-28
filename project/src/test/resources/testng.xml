@@ -1,0 +1,7 @@
+<suite name = "Endpoints">
+    <test name = "MapsController Test">
+        <classes>
+            <class name = "com.calindra.tech.backend.controller.MapsControllerTest" />
+        </classes>
+    </test>
+</suite>

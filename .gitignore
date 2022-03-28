@@ -1,0 +1,35 @@
+
+workspace/*
+project/HELP.md
+project/target/
+project/!.mvn/wrapper/maven-wrapper.jar
+project/!**/src/main/**/target/
+project/!**/src/test/**/target/
+
+### STS ###
+project/apt_generated
+project/classpath
+project/factorypath
+project/project
+project/settings
+project/springBeans
+project/sts4-cache
+
+### IntelliJ IDEA ###
+project/idea
+project/*.iws
+project/*.iml
+project/*.ipr
+
+### NetBeans ###
+project/nbproject/private/
+project/nbbuild/
+project/dist/
+project/nbdist/
+project/.nb-gradle/
+project/build/
+project/!**/src/main/**/build/
+project/!**/src/test/**/build/
+
+### VS Code ###
+project/vscode/
