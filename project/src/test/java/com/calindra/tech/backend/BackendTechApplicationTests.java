@@ -18,7 +18,6 @@ import com.calindra.tech.backend.model.Address;
 import com.calindra.tech.backend.model.AddressResponse;
 import com.calindra.tech.backend.service.BaseMaps;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializationFeature;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
@@ -62,7 +61,6 @@ class BackendTechApplicationTests extends BaseMaps {
 			final ObjectMapper mapperResponses = new ObjectMapper();
 			
 			final String jsonResponses = mapperResponses.writeValueAsString(responses);
-			
 			
 			final ObjectMapper mapperExpected = new ObjectMapper();
 			
